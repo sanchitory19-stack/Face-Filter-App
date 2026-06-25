@@ -8,19 +8,18 @@ This project began as a Python/OpenCV prototype and was later adapted into a **c
 
 ## Features
 
-* Upload your own image or try built-in sample faces
-* Apply multiple face filters:
-
-  * Glasses
-  * Moustache
-  * Crown
-  * Cowboy Hat
-  * Bow Tie
-* **Mood filter** that detects whether the person is smiling or frowning and places a **happy or sad emoji** near the face
-* Landmark-based filter placement for better alignment with facial features
-* Instant preview of the filtered image
-* Download the final output image
-* Browser-based frontend for a smoother and more interactive user experience
+- Upload your own image or try built-in sample faces
+- Apply multiple face filters:
+  - Glasses
+  - Moustache
+  - Crown
+  - Cowboy Hat
+  - Bow Tie
+- **Mood filter** that detects whether the person is smiling or frowning and places a **happy or sad emoji** near the face
+- Landmark-based filter placement for better alignment with facial features
+- Instant preview of the filtered image
+- Download the final output image
+- Browser-based frontend for a smoother and more interactive user experience
 
 ---
 
@@ -28,16 +27,16 @@ This project began as a Python/OpenCV prototype and was later adapted into a **c
 
 ### Frontend
 
-* React
-* Vite
-* JavaScript / CSS
+- React
+- Vite
+- JavaScript / CSS
 
 ### Face Processing / Prototype Logic
 
-* Python
-* OpenCV
-* NumPy
-* MediaPipe
+- Python
+- OpenCV
+- NumPy
+- MediaPipe
 
 ---
 
@@ -78,6 +77,18 @@ This allows filters like glasses, hats, moustaches, and mood emojis to adapt to 
 
 ---
 
+## Screenshots
+
+| Glasses Filter | Crown Filter |
+| -------------- | ------------ |
+| ![Glasses Filter](screenshots/glasses-filter.png) | ![Crown Filter](screenshots/crown-filter.png) |
+
+| Happy Mood Filter | Sad Mood Filter |
+| ----------------- | --------------- |
+| ![Happy Mood Filter](screenshots/happy-filter.png) | ![Sad Mood Filter](screenshots/sad-filter.png) |
+
+---
+
 ## Running the Project
 
 ### Frontend (Main Version)
@@ -99,30 +110,30 @@ If you want to explore the earlier Python version inside `backend/`, install the
 
 Typical dependencies include:
 
-* opencv-python
-* numpy
-* mediapipe
-* pillow
-* streamlit (if using the older Streamlit version)
+- opencv-python
+- numpy
+- mediapipe
+- pillow
+- streamlit (if using the older Streamlit version)
 
 ---
 
 ## Notes
 
-* The **frontend** folder contains the current browser-based version of the project.
-* The **backend** folder contains the earlier Python implementation and filter-placement logic used during development and experimentation.
-* This project was built as part of hands-on learning and experimentation with computer vision, UI development, and face landmark–based image processing.
+- The **frontend** folder contains the current browser-based version of the project.
+- The **backend** folder contains the earlier Python implementation and filter-placement logic used during development and experimentation.
+- This project was built as part of hands-on learning and experimentation with computer vision, UI development, and face landmark–based image processing.
 
 ---
 
 ## Future Improvements
 
-* Add more filters and accessories
-* Support multiple faces in one image
-* Improve landmark accuracy for stylized/cartoon faces
-* Add webcam / live camera mode
-* Add filter stacking (multiple filters at once)
-* Improve mobile responsiveness
+- Add more filters and accessories
+- Support multiple faces in one image
+- Improve landmark accuracy for stylized/cartoon faces
+- Add webcam / live camera mode
+- Add filter stacking (multiple filters at once)
+- Improve mobile responsiveness
 
 ---
 
