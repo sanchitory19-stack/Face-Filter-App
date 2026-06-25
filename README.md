@@ -1,6 +1,6 @@
 # Face Filter App
 
-A browser-based face filter web app that applies fun overlays like glasses, moustache, crown, cowboy hat, and bow tie onto faces using facial landmark detection.
+A browser-based face filter web app that applies fun face filters and mood-based overlays such as glasses, moustache, crown, cowboy hat, bow tie, and happy/sad emoji reactions onto faces using facial landmark detection.
 
 This project began as a Python/OpenCV prototype and was later adapted into a **client-side React application** so the filters can run directly in the browser with a more modern UI and easier deployment.
 
@@ -16,10 +16,11 @@ This project began as a Python/OpenCV prototype and was later adapted into a **c
   * Crown
   * Cowboy Hat
   * Bow Tie
-* Landmark-based filter placement for better alignment with the face
+* **Mood filter** that detects whether the person is smiling or frowning and places a **happy or sad emoji** near the face
+* Landmark-based filter placement for better alignment with facial features
 * Instant preview of the filtered image
 * Download the final output image
-* Browser-based frontend for a smoother user experience
+* Browser-based frontend for a smoother and more interactive user experience
 
 ---
 
@@ -71,8 +72,9 @@ The app detects key facial landmarks (such as eye corners, mouth corners, chin, 
 2. Resize filters according to face proportions
 3. Rotate overlays to match head tilt
 4. Place each filter naturally on the image
+5. Analyze facial expression cues to determine whether the person appears **happy or sad**, then place a corresponding emoji near the face
 
-This allows filters like glasses, hats, or moustaches to adapt to the face rather than appearing as static stickers.
+This allows filters like glasses, hats, moustaches, and mood emojis to adapt to the face rather than appearing as static stickers.
 
 ---
 
